@@ -1,0 +1,277 @@
+
+*{font-family: 'Dancing Script', cursive;
+font-family: 'Rajdhani', sans-serif;}
+
+body{padding-top: 70px}
+
+
+
+/*  Menu */
+
+.nav_responsive-ul {
+	display: none;
+}
+
+.nav { background-color: black;
+	position: fixed;
+	top: -2px;
+	width: 100%;
+	right: 10px
+}
+
+.nav_li{
+	display: inline-block;
+	padding: 14px;
+}
+
+.nav_li:hover {
+	color: white
+}
+
+.nav_li:hover > a {
+	color: white
+}
+
+
+.nav_li a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.nav_li i {
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 4px;
+}
+
+
+
+
+.logop2{
+	font-size: 20px;
+	width: 50px;
+	height: 6vh;
+	position: relative;
+	right: -10px;
+	background: black;
+	top: 14px;
+}
+
+.carshop {
+	font-size: 20px;
+	width: 30px;
+	height: 5vh;
+	position: relative;
+	left: 1220px;
+	background: black;
+	top: 6px;
+}
+
+
+
+.logop{height: 150px; width: 150px}
+
+.fondo1 {
+	margin: auto;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+	opacity: .3;}
+
+.ultimacoleccion {width: 150px;
+	height: 150px;
+	margin: 20px;
+	border: 2px black;
+	background: #808080;
+	display: inline-block;
+	cursor: progress;
+}
+
+.ultimacoleccion:hover {background: darkslategray;
+	height: 250px;
+	width: 250px;
+	transition: height 0.5s, width 0.5s
+	}
+.info{
+	display: flex;
+}
+.informacion{
+	padding: 10px;
+	margin: 10px;
+}
+
+a:link {color: #808080}
+a:visited {color: gray}
+
+.whatsapp{width: 45px;
+	height: 45px;
+	position: fixed;
+    bottom: 20px;
+    right: 20px;}
+
+
+
+
+.menu_patan{font-size: 20px;
+	background-color: #000;
+	position: fixed;
+	margin: 10px;
+	width: 100vw;
+	height: 15vh;
+	top: -4px;
+	left: -4px}
+
+
+
+
+
+/* Nosotros    */
+
+.menu_nosotros {
+	font-size: 20px;
+	background-color: #000;
+	position: fixed;
+	margin: auto;
+	width: 95%;
+	height: 8vh;
+	top: -2px;
+	left: 60px;
+	list-style: none;}
+.menu_nosotros li a {
+    text-decoration: none;
+}
+
+.videonosotros {
+	height: 80vh;
+}
+
+.carshopnos{
+	font-size: 20px;
+	width: 40px;
+	height: 6.5vh;
+	top: -66px;
+	position: relative;
+	left: 1145px;
+	background: black;}	
+
+.logop2nos{
+	font-size: 20px;
+	width: 60px;
+	height: 10.2vh;
+	top: -60px;
+	position: relative;
+	right: 60px;
+	background: black;
+}
+
+.fondonosotros{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+	opacity: .3;}
+
+.collagenosotros {display: inline;}
+
+.correo{background: lightgray;
+	transition: background 1s;
+	width: 200px; height: 25px;
+	cursor: text;}
+
+.correo:focus {background: white;
+	height: 35px; width: 250px;}
+
+
+
+/* Short 1 */
+
+.menushort{
+	font-size: 20px;
+	background-color: #000;
+	position: fixed;
+	margin: auto;
+	width: 95%;
+	height: 10vh;
+	top: -1px;
+	left: 60px;
+	list-style: none;}
+.menushort li a {
+    text-decoration: none;
+}
+
+
+.fondoshort1{
+	margin: auto;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    z-index: -1;
+	opacity: .1;}
+
+.short1shop{width: 250px;
+	height: 250px;
+	margin: 20px;
+	border: 2px black;
+	background: #808080;
+	display: inline-block;
+	cursor: progress;
+}
+
+.short1shop:hover {background: darkslategray;
+	height: 350px;
+	width: 350px;
+	transition: height 0.5s, width 0.5s
+	}
+
+.tshirt1shop{width: 250px;
+	height: 250px;
+	margin: 20px;
+	border: 2px black;
+	background: #808080;
+	display: inline-block;
+	cursor: progress;
+}
+
+.tshirt1shop:hover {background: darkslategray;
+	height: 350px;
+	width: 350px;
+	transition: height 0.5s, width 0.5s
+	}
+
+
+
+
+
+/* Tienda */
+
+.fondotienda {
+	margin: auto;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+	opacity: .3;}
+
+
+
+.fondocarshop {
+	margin: auto;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+	opacity: .1;}
+.xroja{ opacity: 0.4 }
+
+
